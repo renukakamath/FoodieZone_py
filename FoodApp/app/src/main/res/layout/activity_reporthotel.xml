@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/h"
+    android:orientation="vertical"
+    tools:context=".Reporthotel">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Hotels"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <EditText
+        android:id="@+id/complaints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ffff"
+        android:inputType="textPersonName"
+        android:hint="Complaints"
+        android:textColor="#ffff"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="302dp" />
+</LinearLayout>

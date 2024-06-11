@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1785" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.168" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout-w1240dp/cust_images.xml" value="0.11546184738955824" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_adminhome.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_delivery_boy_home.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_deliveryboy.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_ipsettings.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_makeorder.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_makepayment.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_rate.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_rec_change_pass.xml" value="0.15625" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_registration.xml" value="0.22" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_reporthotel.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_userhome.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_view_order.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_viewassign.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_viewassign2.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_viewhotels.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_viewmenu.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_viewmyorders.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_viewuser.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/cust_images.xml" value="0.19160583941605838" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/cust_images1.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/cust_images2.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/FoodApp/app/src/main/res/layout/custtext.xml" value="0.14130434782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

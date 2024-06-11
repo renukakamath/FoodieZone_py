@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/h"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Login"
+
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColor="#ffff"
+        android:inputType="textPersonName"
+        android:hint="User Name"
+        android:textColorHint="#ffff"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:text="create an account?" />
+
+</LinearLayout>

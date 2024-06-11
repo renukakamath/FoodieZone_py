@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/h"
+    android:orientation="vertical"
+    tools:context=".Makeorder">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking"
+        android:textStyle="bold"
+
+        android:textSize="20dp"
+        android:textColor="#ffff"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <EditText
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ffff"
+        android:inputType="textPersonName"
+        android:focusable="false"
+        android:hint="menu"
+        android:textColor="#ffff"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ffff"
+        android:inputType="number"
+        android:hint="Amount"
+        android:textColor="#ffff"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="203dp" />
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="Quantity"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="Total"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

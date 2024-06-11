@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/h"
+    tools:context=".Rate">
+
+    <TextView
+        android:id="@+id/dsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-black"
+        android:rotationY="33"
+        android:text=" Add your Review !"
+        android:layout_marginLeft="70dp"
+
+        android:textColor="#BC2C2C"
+        android:textSize="28dp" />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1" />
+
+
+
+
+    <TextView
+        android:id="@+id/ratingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingRight="100dp"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#EADDDD"
+        android:textStyle="bold|italic"
+
+        android:text="Your rating is :" />
+
+    <EditText
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#ffff"
+        android:inputType="textPersonName"
+        android:hint="Review"
+        android:textColorHint="#ffff"/>
+
+    <Button
+        android:id="@+id/rate"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rate" />
+
+
+</LinearLayout>
